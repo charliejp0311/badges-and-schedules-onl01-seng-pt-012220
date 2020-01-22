@@ -30,7 +30,7 @@ def printer(attendees)
   romm_assignments.each do |room| 
     pp room 
   end
-  b = 0 
+  #b = 0 
   #while b < attendees.length do
   #  pp badges[b]
   #  b += 1 
