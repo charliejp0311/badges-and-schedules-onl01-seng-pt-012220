@@ -21,18 +21,23 @@ end
 
 def printer(attendees)
   people = []
-  people << attendees
-  attendees = batch_badge_creator(attendees)
-  pp people
-  badges.each do |badge| 
-    pp badge 
+  counter = 0 
+  attendees.each do |attendee|
+    people[counter] = attendee
   end
   
-  romm_assignments = attendees
-  romm_assignments = assign_rooms(romm_assignments)
-  romm_assignments.each do |room| 
-    pp room 
-  end
+  #people << attendees
+  #attendees = batch_badge_creator(attendees)
+  pp people
+  #badges.each do |badge| 
+  #  pp badge 
+  #end
+  
+  #romm_assignments = attendees
+  #romm_assignments = assign_rooms(romm_assignments)
+  #romm_assignments.each do |room| 
+  #  pp room 
+  #end
   #b = 0 
   #while b < attendees.length do
   #  pp badges[b]
