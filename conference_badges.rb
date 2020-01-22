@@ -35,7 +35,7 @@ def printer(attendees)
   
   assign_rooms(people)
   people.each do |person| 
-    pp person 
+    puts person 
   end
   #b = 0 
   #while b < attendees.length do
