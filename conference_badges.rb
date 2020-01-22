@@ -27,7 +27,7 @@ def printer(attendees)
   end
   
   #people << attendees
-  #attendees = batch_badge_creator(attendees)
+  attendees = batch_badge_creator(attendees)
   pp people
   #badges.each do |badge| 
   #  pp badge 
