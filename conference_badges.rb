@@ -26,14 +26,13 @@ def printer(attendees)
     people[counter] = attendee
   end
   
-  #people << attendees
+  
   attendees = batch_badge_creator(attendees)
-  pp people
   attendees.each do |badge| 
-    pp badge 
+    puts badge 
   end
   
-  #romm_assignments = attendees
+  
   #romm_assignments = assign_rooms(romm_assignments)
   #romm_assignments.each do |room| 
   #  pp room 
