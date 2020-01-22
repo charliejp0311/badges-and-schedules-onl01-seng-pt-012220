@@ -28,10 +28,10 @@ def printer(attendees)
   
   #people << attendees
   attendees = batch_badge_creator(attendees)
-  pp people
-  #badges.each do |badge| 
-  #  pp badge 
-  #end
+  people
+  attendees.each do |badge| 
+    pp badge 
+  end
   
   #romm_assignments = attendees
   #romm_assignments = assign_rooms(romm_assignments)
