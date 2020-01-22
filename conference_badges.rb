@@ -26,6 +26,7 @@ def printer(attendees)
   badges.each do |badge| 
     pp badge 
   end
+  pp attendees
   romm_assignments = attendees
   romm_assignments = assign_rooms(romm_assignments)
   romm_assignments.each do |room| 
